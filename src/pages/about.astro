@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "About Me";
 ---
 
 <html lang="en">
@@ -8,14 +8,14 @@
 		<link rel="icon" type="image/svg+xml" href="/astro-tutorial/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>About</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
         <a href='/astro-tutorial/'>Home</a>
         <a href='/astro-tutorial/about/'>About</a>
         <a href='/astro-tutorial/blog/'>Blog</a>
 
-		<h1>about me</h1>
+		<h1>{pageTitle}</h1>
         <h2>...and my sweet new site :)</h2>
 
         <p>I'm working through the introductory Astro tutorial, and it wants me to make an about page.</p>
